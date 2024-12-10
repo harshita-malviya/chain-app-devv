@@ -1,0 +1,1016 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --padding-inline-section: 20px;
+}
+p{
+    color: gray;
+}
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+.img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/* navbar section start */
+.logo{
+    width: 10%;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+.a-size{
+    color: black;
+    font-weight: 500;
+}
+.navbar{
+    box-shadow: 0px 0px 8px black;
+}
+
+/* navbar section end */
+
+/* latest app section start */
+.latest-apps{
+    display: flex;
+    margin-block: 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding: 10px;
+}
+.heading-1{
+    font-size: 1.65rem;
+}
+.phone{
+    width: 48%;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.btn-1{
+    color: white;
+    background-color: rgb(67, 67, 137);
+    border: none;
+    padding: 9px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* latest app section end */
+
+/* features section start */
+.feature-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-block: 8%;
+    padding: 10px;
+} 
+.images{
+    width: 6%;
+} 
+.paras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+/* features section end */
+
+/* cards section start */
+.para{
+    text-align: center;
+}
+.span-color{
+    color: rgb(83, 83, 174);
+}
+.services{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 23px;
+    text-align: center;
+}
+.card{
+    display: flex;  
+    gap: 30px; 
+}
+.icon1{
+    width: 20%;   
+}
+.card-1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 0px 7px black;
+    padding-block: 9px;
+    padding-inline: 2px;
+    border-radius: 15px;
+    
+}
+.read-more{
+    border: none;
+    color: rgb(67, 67, 137);
+    font-weight: 600;
+    font-size: 17px;
+    background-color: white;
+}
+
+
+/* cards section end */
+
+/* about section start*/
+
+.about-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about{
+    margin-block: 6%;
+}
+.marketing{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    padding: 10px;
+}
+.two-button{
+    display: flex;
+    gap: 28%;
+}
+.button4{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.two-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btns-1{
+    box-shadow: 0px 0px 3px black;
+    border-radius: 25px;
+    padding: 10px;
+    width: 37%;
+    border: none;
+}
+.btns-2{
+    box-shadow: 0px 0px 3px black;
+    border-radius: 25px;
+    padding: 11px;
+    width: 55%;
+    border: none;
+    
+}
+.about-heading{
+    font-size: 22px;
+    font-weight: 900;
+}
+.image{
+    width: 15%;
+}
+.free-trial{
+    border: none;
+    color: white;
+    background-color: rgb(66, 66, 221);
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.marketing-photo{
+    width: 45%;
+}
+.h5{
+    color: gray;
+}
+
+
+/* about section end */
+
+/* card prices start */
+
+.standard-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    box-shadow: 0px 0px 7px gray;
+    border-radius: 20px;
+    padding-block: 30px;
+    position: relative;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+.card-img{
+    width: 60%;
+}
+.h-4{
+    color: rgb(59, 59, 232);
+    font-size: 20px;
+}
+.h6{
+    color: gray;
+    font-size: 25px;
+}
+.plan-heading{
+    font-size: 1.45rem;
+}
+.top-png{
+    position: absolute;
+    top: -55px;
+    left: -40px;
+}
+.tops-png{
+    position: absolute;
+    top: -55px;
+    left: -40px;
+    z-index: -1;
+}
+
+.bottom-png{
+    position: absolute;
+    bottom: -1px;
+    z-index: -1;
+}
+.card-app{
+    display: flex;
+    justify-content: space-between;
+}
+.purchase{
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    color: cornflowerblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* card prices end */
+
+/* footer section start */
+
+.footer{
+    background: url(images/footer-bg.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+    margin-top: 36px;
+    padding-top: 131px;
+}
+.contact-us{
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;   
+    /* justify-content: space-around; */
+    color: white;
+}
+.mailing-list{
+    text-align: center;
+    width: 50%;
+}
+.emails{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.email{
+    border: 1.9px solid white;
+    padding: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    text-align: center;
+}
+.subs-btn{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(65, 161, 225);
+    width: 156%;
+}
+.ending{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* gap: 20px; */
+    /* width: 85%; */
+    width: 100%;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* width: 30%; */
+}
+.h{
+    display: flex;
+    gap: 20px;
+}
+.first-line{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec-line{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dev{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.free{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.both-colom{
+    display: flex;
+    gap: 40px;
+}
+.useful{
+    padding-bottom: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+}
+.c-chain{
+    width: 35%;
+    padding: 10px;
+}
+.footer-para p{
+    /* width: 65%; */
+    color: white !important;
+}
+
+
+h6{
+    font-size: 13px;
+}
+.copyright{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* footer section end */
+
+/* rating section start */
+
+.rating-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 162px;
+}
+.CEO{
+    background: url(images/client-bg.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+    padding-block: 20px;
+    width: 90%;
+    gap: 50px;    
+}
+.CEO-lorem p{
+    padding-inline: 20px;
+    font-size: 1.2rem;
+   word-spacing: 10px;
+    color:  white !important;
+    border-radius: 25px;
+
+}
+.CEO_paras{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+.photo{
+    width: 20%;
+    padding: 10px;
+}
+.CEO-part{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 10px;
+}
+.CEO-img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.rating-star{
+    display: flex;
+    /* align-items: center; */
+    gap: 70px;
+    width: 50%;
+}
+.CEO-top{
+    margin-top: -45%;
+    padding: 20px;
+    width: 20%;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.star-5{
+    display: flex;
+}
+.rating-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    
+}
+.rating-work{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 55%;
+}
+
+
+ /* rating section end  */
+
+
+ /* media querry */
+
+ @media (max-width: 1025px){
+      .app{
+        width: 60%;
+        align-items: center;
+        text-align: center;
+      }
+      .card-1{
+        /* align-items: center; */
+        text-align: center;
+      }
+      .marketing{
+        width: 60%;
+        /* text-align: center; */
+      }
+      .ending{
+        /* align-items: center; */
+        width: 100%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+ }
+ @media (max-width: 769px){
+        .logo{
+            width: 15%;
+        }
+        .card{
+            display: flex;
+            width: 60%;
+            padding-inline: 20px;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+        }
+        .latest-apps{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 10px;
+            gap: 20px;
+        }
+        .app{
+           width: 100%;   
+        }
+        .phone{
+            width: 70%;
+        }
+        .about-contain{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 20px;
+        }
+        .marketing{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+        .button4{
+            width: 100%;
+        }
+        .marketing-photo{
+            width: 100%;
+        }
+        .free-trial{
+            padding-inline: 110px;
+            font-size: 1.35rem;
+        }
+        .h5{
+            font-size: 1.80rem;
+        }
+        .rating-contain{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .rating-star{
+            width: 100%;
+            padding-inline: 30px;
+            /* align-items: center; */
+            text-align: center;
+        }
+        .CEO_paras{
+            width: 85%;
+            align-items: center;
+            
+        }
+        .photo{
+            width: 30%;
+        }
+        .CEO-nam{
+            font-size: 2rem;
+        }
+        .CEO-para{
+            font-size: 20px;
+        }
+        .card-app{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .standard-plan{
+            width: 50%;
+        }
+        .card-prices{
+            align-items: center;    
+        }
+        .mailing-list{
+            width: 100%;
+            font-size: 14px;
+        }
+        ul{
+            font-size: 17px;
+        }           
+ }
+ @media (max-width: 715px){
+        .services{
+            text-align: center;
+        }
+        .c-chain{
+            width: 50%;
+        }
+ }
+ @media (max-width: 610px){
+    .ending{
+        width: 71%;
+        font-size: 15px;
+        margin-top: -70px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 9px;
+        flex-direction: column;
+    }
+    .contact{
+        width: 100%;
+        font-size: 1.50rem;
+        margin-top: 30px;
+    }
+    .about-us{
+        width: 100%;
+        font-size: 1.50rem;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .links{
+        width: 100%;
+        font-size: 1.50rem;
+        align-items: center;
+    }
+    .company{
+        width: 100%;
+        font-size: 1.40rem;
+        align-items: center;
+    }
+    .c-chain{
+        width: 24%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .emails{
+        margin-top: -52px;
+    }
+    .h {
+        display: flex;
+        gap: 60px;
+    }
+    .both-colom {
+        display: flex;
+        gap: 75px;
+    }
+    .reserved{
+       text-align: center;
+    }
+    .paras{
+        text-align: center;
+    }
+    .standard-plan {
+        width: 58%;
+        display: flex;
+        gap: 13px;
+    }
+}
+
+ 
+ @media (max-width: 521px){
+    .logo{
+        width: 25%;
+    }
+    ul{
+        font-size: 15px;
+        display: flex;
+        gap: 10px;
+    }
+    .button4 {
+        width: 100%;
+        align-items: center;
+    }
+    .two-buttons{
+        width: 104%;
+        padding: 0%;
+        display: flex;      
+        align-items: center;
+    }
+    .two-button{
+        width: 105%;
+        padding: 0%;
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+    .free-trial {
+        padding-inline: 51px;
+        font-size: 1.25rem;
+    }
+    .h5{
+        font-size: 1.2rem;
+    }
+    .images {
+        width: 15%;
+        margin-top: -27px;
+    }
+    /* .footer {
+        background: url(images/footer-bg.png) no-repeat center;
+        background-size: cover;
+        height: auto;
+        margin-top: 36px;
+        padding-top: 131px;
+    } */
+}
+@media(max-width: 492px){
+    ul{
+        display: none;
+    }
+    .card {
+        display: flex;
+        width: 74%;
+        padding-inline: 20px;
+    }
+    .two-buttons {
+        width: 109%;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+    }
+    .rating-star {
+        width: 100%;
+        padding-inline: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        word-spacing: 8px;
+        gap: 21px;
+    }
+    .CEO-lorem{
+        width: 100%;
+    }
+    .CEO{
+        width: 109%;
+    }
+    .standard-plan{
+        width: 70%;
+    }
+    /* .footer {
+        background: url(images/footer-bg.png) no-repeat center;
+        background-size: cover;
+        height: auto;
+        margin-top: 36px;
+        padding-top: 131px;
+    } */
+}
+@media (max-width: 426px){
+    .heading-1{
+        font-size: 13px;
+    }
+    .para{
+        font-size: 14px;
+    }
+    .btn-1{
+        font-size: 12px;
+    }
+    .phone{
+        width: 60%;
+    }
+    .services{
+        font-size: 12px;
+    }
+    .card {
+        display: flex;
+        width: 83%;
+        padding-inline: 20px;
+    }
+    .card-1{
+        padding-inline: 11px;
+    }
+    .about-heading{
+        font-size: 16px;
+    }
+    .marketing{
+        display: flex;
+        gap: 10px;
+    }
+    .button4{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-block: 10px;
+    }
+    .two-button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .two-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btns-1{
+        padding: 9px;
+        width: 70%;
+    }
+    .btns-2{
+        width: 72%;
+        padding: 6px;
+    }
+    .h-1{
+        font-size: 14px;
+    }
+    .free-trial{
+        padding: 11px;
+        font-size: 13px;
+    }
+    .h5{
+        font-size: large;
+    }
+    .CEO{
+        width: 120%;
+        text-align: center;
+    }
+    .CEO-para{
+        font-size: medium;
+    }
+    .plan-heading{
+        font-size: 20px;
+    }
+    .emails{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .email{
+        padding: 16px;
+    }
+    .standard-plan{
+        width: 75%;
+    }
+    .subs-btn{
+        padding: 10px;
+        margin-left: -33px;
+    }
+    .footer{
+        padding-top: 150px;
+    }
+    .mailing-list {
+        width: 100%;
+        font-size: 11px;
+    }
+    .us{
+        font-size: 18px;
+    }
+    .About{
+        font-size: 18px;
+    }
+    .useful{
+        font-size: 18px;
+    }
+    .our-company{
+        font-size: 18px;
+    }
+    .reserved{
+        font-size: 15px;
+    }
+    .footer-para{
+        font-size: 16px;
+    }
+    .company{
+        padding-top: 18px;
+    }
+    .about-us{
+        padding: 16px;
+    }
+    .c-chain {
+        width: 31%;
+}
+}
+@media (max-width: 376px){
+    .heading-1{
+        font-size: 15px;
+    }
+    .btn-1{
+        width: 100%;
+        padding: 11px;
+        font-size: 16px;
+        display: flex;
+        gap: 31px;
+    }
+    .phone{
+        width: 78%;
+    }
+    .card{
+        width: 98%;
+    }
+    .marketing-photo{
+        width: 85%;
+    }
+    .CEO{
+        width: 127%;
+        text-align: center;
+    }
+    .photo {
+        width: 40%;
+    }
+    .CEO-nam{
+        font-size: 26px;
+    }
+    .CEO-para{
+        font-size: 13px;
+        width: 100%;
+    }
+    .CEO-part{
+        width: 65%;
+    }
+    .reserved{
+        font-size: 15px;
+    }
+    .footer-para{
+        font-size: 16px;
+    }
+    .c-chain {
+        width: 36%;
+}
+.both-colom{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+}
+@media (max-width: 321px){
+    .logo{
+        width: 30%;
+    }
+    .btn-1{
+        width: 106%;
+        padding: 5px;
+    }
+    .about-heading{
+        font-size: 12px;
+        width: 100%;
+    }
+    .marketing-para{
+        width: 100%;
+        font-size: 14px;
+        padding: 3px;
+    }
+    .marketing-photo{
+        width: 100%;
+    }
+    .CEO{
+        width: 123%;
+    }
+    .CEO-lorem p{
+        width: 100%;
+    }
+    .CEO-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .photo{
+        width: 54%;
+    }
+    .CEO-nam{
+        font-size: 24px;
+    }
+    .CEO-para{
+        font-size: 12px;
+    }
+    .standard-plan{
+        width: 94%;
+    }
+    .mailing-list{
+        font-size: 10px;
+    }
+    .both-colom{
+        width: 100%;
+        display: flex;
+        gap: 24px;
+    }
+    .reserved{
+        font-size: 13px;
+        font-weight: 900;
+    }
+    .copyright{
+        margin-top: -25px;
+    }
+    .c-chain{
+        width: 45%;
+    }
+    .our-company{
+        width: 104%;
+    }
+}
+
+
